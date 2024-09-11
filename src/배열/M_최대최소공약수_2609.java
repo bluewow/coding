@@ -13,6 +13,7 @@ import java.io.InputStreamReader;
 
  시간 복잡도
  - O(n) : gcd 에서 while 문으로 계산
+ - GPT 결과 : O(log(min(a, b)))
 
  사고 과정
  - 두수의 소수를 구하고 저장후 공통분모를 찾아 최대공약수를 찾으려했으나
