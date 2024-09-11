@@ -1,5 +1,8 @@
 package 자바문법;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class J_문자열 {
     public static void main(String[] args) {
         문자열_인덱싱();
@@ -12,6 +15,18 @@ public class J_문자열 {
         양쪽끝_특정문자_제거();
         아스키코드_변환();
         문자열_대소비교();
+        List을_String으로_변환();
+
+    }
+
+    private static void List을_String으로_변환() {
+        List<String> list = new ArrayList<>();
+        list.add("Hello");
+        list.add("World");
+        list.add("Java");
+
+        String str = String.join("", list);
+        System.out.println(str); // HelloWorldJava
     }
 
     private static void 문자열_대소비교() {
