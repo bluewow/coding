@@ -1,9 +1,7 @@
-package 자바문법;
-
 import java.util.ArrayList;
 import java.util.List;
 
-public class J_문자열 {
+public class J_자바_문자열 {
     public static void main(String[] args) {
         문자열_인덱싱();
         문자열_슬라이싱();
