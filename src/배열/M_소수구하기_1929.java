@@ -15,7 +15,7 @@ import java.util.List;
  - 소수, 에라토스테네스의 체
 
  시간 복잡도 계산
- - O(N * sqrt(N)) ??
+ - O(N)
 
  참고자료
  - https://sfida.tistory.com/28
